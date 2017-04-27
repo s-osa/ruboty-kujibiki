@@ -23,6 +23,6 @@ Or install it yourself as:
 ```bash
 > ruboty kujibiki 1,2,3,4,5
 2
-> ruboty kujibiki 1,2,3,4,5
-5
+> ruboty kujibiki 2 a,b,c,d,e
+b, a
 ```
