@@ -9,7 +9,11 @@ module Ruboty
         private
 
         def selected_element
-          message[:elements].split(',').map(&:strip).sample
+          message[:elements].split(',').map(&:strip).sample(number).join(', ')
+        end
+
+        def number
+          [message[:number].to_i, 1].max
         end
       end
     end
