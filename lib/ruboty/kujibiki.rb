@@ -1,3 +1,4 @@
+require "ruboty"
 require "ruboty/kujibiki/version"
 require "ruboty/handlers/kujibiki"
 require "ruboty/kujibiki/actions/kujibiki"
